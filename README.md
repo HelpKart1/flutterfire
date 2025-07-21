@@ -1,87 +1,36 @@
-<p align="center">
-  <a href="https://firebase.google.com/docs/flutter">
-    <img width="250px" src=".github/images/flutterfire_300x.png" alt="Flutter + Firebase logo"><br/>
-  </a>
-  <h1 align="center">FlutterFire</h1>
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/flutterfiredev">
-    <img src="https://img.shields.io/twitter/follow/flutterfiredev.svg?colorA=1da1f2&colorB=&label=Follow%20on%20Twitter&style=flat-square" alt="Follow on Twitter" />
-  </a>
-  <a href="https://github.com/invertase/melos">
-    <img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square" alt="Maintained with Melos" />
-  </a>
-  <a href="https://api.securityscorecards.dev/projects/github.com/firebase/flutterfire">
-    <img src="https://api.securityscorecards.dev/projects/github.com/firebase/flutterfire/badge" alt="OSSF scorecard" />
-  </a>
-</p>
-
----
-
-[[Changelog]](./CHANGELOG.md) • [[Packages]](https://pub.dev/publishers/firebase.google.com/packages)
-
----
-
-FlutterFire is a set of [Flutter plugins](https://flutter.dev/platform-plugins/)
-that enable Flutter apps to use [Firebase](https://firebase.google.com/) services. You can follow an example that shows
-how to use these plugins in
-the [Firebase for Flutter](https://firebase.google.com/codelabs/firebase-get-to-know-flutter) codelab.
-
-[Flutter](https://flutter.dev) is Google’s UI toolkit for building beautiful, natively compiled applications for mobile,
-web, and desktop from a single codebase. Flutter is used by developers and organizations around the world, and is free
-and open source.
-
----
-
-## Documentation
-
-- [Add Firebase to your Flutter app](https://firebase.google.com/docs/flutter/setup)
-- [Available plugins](https://firebase.google.com/docs/flutter/setup#available-plugins)
-- [Firebase UI](https://github.com/firebase/FirebaseUI-Flutter) has moved to its own repository.
-- [Cloud Firestore ODM](https://github.com/firebaseextended/firestoreodm-flutter) has now moved to its own repository.
-
----
-
-## Stable Plugins
-
-| Name                   | pub.dev                                                                                                                                             | Firebase Product                                                     | Documentation                                                                        | View Source                                                                                                                     | Android | iOS | Web | MacOS | Windows |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------- | --- | --- | ----- | ------- |
-| Analytics              | [![Analytics pub.dev badge](https://img.shields.io/pub/v/firebase_analytics.svg)](https://pub.dev/packages/firebase_analytics)                      | [🔗](https://firebase.google.com/products/analytics)                 | [📖](https://firebase.google.com/docs/analytics/get-started?platform=flutter)        | [`firebase_analytics`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_analytics)                 | ✔       | ✔   | ✔   | β     | N/A     |
-| App Check              | [![App Check pub.dev badge](https://img.shields.io/pub/v/firebase_app_check.svg)](https://pub.dev/packages/firebase_app_check)                      | [🔗](https://firebase.google.com/docs/app-check)                     | [📖](https://firebase.google.com/docs/app-check/flutter/default-providers)           | [`firebase_app_check`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_app_check)                 | ✔       | ✔   | ✔   | β     | N/A     |
-| Authentication         | [![Authentication pub.dev badge](https://img.shields.io/pub/v/firebase_auth.svg)](https://pub.dev/packages/firebase_auth)                           | [🔗](https://firebase.google.com/products/auth)                      | [📖](https://firebase.google.com/docs/auth/flutter/start)                            | [`firebase_auth`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_auth)                           | ✔       | ✔   | ✔   | β     | (*)     |
-| Cloud Firestore        | [![Cloud Firestore pub.dev badge](https://img.shields.io/pub/v/cloud_firestore.svg)](https://pub.dev/packages/cloud_firestore)                      | [🔗](https://firebase.google.com/products/firestore)                 | [📖](https://firebase.google.com/docs/firestore/quickstart)                          | [`cloud_firestore`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/cloud_firestore)                       | ✔       | ✔   | ✔   | β     | (*)     |
-| Cloud Functions        | [![Cloud Functions pub.dev badge](https://img.shields.io/pub/v/cloud_functions.svg)](https://pub.dev/packages/cloud_functions)                      | [🔗](https://firebase.google.com/products/functions)                 | [📖](https://firebase.google.com/docs/functions/get-started?gen=2nd)                 | [`cloud_functions`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/cloud_functions)                       | ✔       | ✔   | ✔   | β     | N/A     |
-| Cloud Messaging        | [![Cloud Messaging pub.dev badge](https://img.shields.io/pub/v/firebase_messaging.svg)](https://pub.dev/packages/firebase_messaging)                | [🔗](https://firebase.google.com/products/cloud-messaging)           | [📖](https://firebase.google.com/docs/cloud-messaging/flutter/client)                | [`firebase_messaging`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_messaging)                 | ✔       | ✔   | ✔   | β     | N/A     |
-| Cloud Storage          | [![Cloud Storage pub.dev badge](https://img.shields.io/pub/v/firebase_storage.svg)](https://pub.dev/packages/firebase_storage)                      | [🔗](https://firebase.google.com/products/storage)                   | [📖](https://firebase.google.com/docs/storage/flutter/start)                         | [`firebase_storage`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_storage)                     | ✔       | ✔   | ✔   | β     | (*)     |
-| Core                   | [![Core pub.dev badge](https://img.shields.io/pub/v/firebase_core.svg)](https://pub.dev/packages/firebase_core)                                     | [🔗](https://firebase.google.com)                                    | [📖](https://firebase.google.com)                                                    | [`firebase_core`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_core)                           | ✔       | ✔   | ✔   | β     | (*)     |
-| Crashlytics            | [![Crashlytics pub.dev badge](https://img.shields.io/pub/v/firebase_crashlytics.svg)](https://pub.dev/packages/firebase_crashlytics)                | [🔗](https://firebase.google.com/products/crashlytics)               | [📖](https://firebase.google.com/docs/crashlytics/get-started?platform=flutter)      | [`firebase_crashlytics`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_crashlytics)             | ✔       | ✔   | N/A | β     | N/A     |
-| Dynamic Links          | [![Dynamic Links pub.dev badge](https://img.shields.io/pub/v/firebase_dynamic_links.svg)](https://pub.dev/packages/firebase_dynamic_links)          | [🔗](https://firebase.google.com/products/dynamic-links)             | [📖](https://firebase.google.com/docs/dynamic-links/flutter/create)                  | [`firebase_dynamic_links`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_dynamic_links)         | ✔       | ✔   | N/A | N/A   | N/A     |
-| In-App Messaging       | [![In-App Messaging pub.dev badge](https://img.shields.io/pub/v/firebase_in_app_messaging.svg)](https://pub.dev/packages/firebase_in_app_messaging) | [🔗](https://firebase.google.com/products/in-app-messaging)          | [📖](https://firebase.google.com/docs/in-app-messaging/get-started?platform=flutter) | [`firebase_in_app_messaging`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_in_app_messaging)   | ✔       | ✔   | N/A | N/A   | N/A     |
-| Installations          | [![Installations pub.dev badge](https://img.shields.io/pub/v/firebase_app_installations.svg)](https://pub.dev/packages/firebase_app_installations)  | [🔗](https://firebase.google.com/docs/projects/manage-installations) | [📖](https://firebase.google.com/docs/projects/manage-installations#flutter)         | [`firebase_app_installations`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_app_installations) | ✔       | ✔   | ✔   | β     | N/A     |
-| Performance Monitoring | [![Performance Monitoring pub.dev badge](https://img.shields.io/pub/v/firebase_performance.svg)](https://pub.dev/packages/firebase_performance)     | [🔗](https://firebase.google.com/products/performance)               | [📖](https://firebase.google.com/docs/perf-mon/flutter/get-started)                  | [`firebase_performance`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_performance)             | ✔       | ✔   | ✔   | N/A   | N/A     |
-| Realtime Database      | [![Realtime Database pub.dev badge](https://img.shields.io/pub/v/firebase_database.svg)](https://pub.dev/packages/firebase_database)                | [🔗](https://firebase.google.com/products/database)                  | [📖](https://firebase.google.com/docs/database/flutter/start)                        | [`firebase_database`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_database)                   | ✔       | ✔   | ✔   | β     | N/A     |
-| Remote Config          | [![Remote Config pub.dev badge](https://img.shields.io/pub/v/firebase_remote_config.svg)](https://pub.dev/packages/firebase_remote_config)          | [🔗](https://firebase.google.com/products/remote-config)             | [📖](https://firebase.google.com/docs/remote-config/get-started?platform=flutter)    | [`firebase_remote_config`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_remote_config)         | ✔       | ✔   | ✔   | β     | N/A     |
-
- (*) for development only. Production on Windows is not supported.
-
-## Preview Plugins
-
-| Name                | pub.dev                                                                                                                                                      | Firebase Product                                                                                                                                      | Documentation                                                        | View Source                                                                                                                         | Android | iOS | Web | MacOS |
-|---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------:|:-----:|:-----:|:-------:|
-| ML Model Downloader | [![ML Model Downloader pub.dev badge](https://img.shields.io/pub/v/firebase_ml_model_downloader.svg)](https://pub.dev/packages/firebase_ml_model_downloader) | [🔗](https://firebase.google.com/products/ml) | [📖](https://firebase.google.com/docs/ml/flutter/use-custom-models) | [`firebase_ml_model_downloader`](https://github.com/FirebaseExtended/flutterfire/tree/main/packages/firebase_ml_model_downloader) | ✔       | ✔   | N/A | β     |
-
-
-## Issues
-
-Please file FlutterFire specific issues, bugs, or feature requests in
-our [issue tracker](https://github.com/firebase/flutterfire/issues/new/choose).
-
-Plugin issues that are not specific to FlutterFire can be filed in
-the [Flutter issue tracker](https://github.com/flutter/flutter/issues/new).
-
-## Contributing
-
-If you wish to contribute a change to any of the existing plugins in this repo, please review
-our [contribution guide](https://github.com/firebase/flutterfire/blob/main/CONTRIBUTING.md)
-and open a [pull request](https://github.com/firebase/flutterfire/pulls).
+আমাকে ডোনেশনের জন্য HelpKart নাম দিয়ে একটি অ্যাপস তৈরি করে দেন যা হবার হব কেটু অ্যাপ এর মত হয় এবং তাতে সব সিস্টেমগুলো কাজ করে ভারতীয় ফটো দিয়ে ২০০ দেমু পোস্ট তৈরি করবেন সেখানে যাতে বিভিন্ন ধরনের ক্যাটাগরি থাকে টোটাল ক্যাটাগরি হবে 20 টি আমাদের ব্যাংক একাউন্ট নাম্বারটি অ্যাড করবেন কেউ দোনেশন দিলে যাতে সরাসরি আমাদের একাউন্টে আসে আমাদের অ্যাকাউন্ট নাম্বারটি হল  6080022033313648 এবং আমাদের অফিসের ঠিকানা আসাম অ্যাপসটি প্রফেশনাল ভাবে তৈরি করুন গ্রীন কালার করে তৈরি করবেন বিভিন্ন ধরনের ভাষা এড করে দিবেন জামান হিন্দি বাংলা অহমিয়া মাদ্রাজি তেলুগু উর্ধ্ব তামিল কারে কানাডা বাসা ইংরেজি আরবি সহ আরব বিভিন্ন বাসা এড করবেন মূল বৈশিষ্ট্যসমূহ:
+🎯 কার্যকর বাটন সিস্টেম:
+"Start Donating" বাটন - ক্যাম্পেইন সেকশনে স্মুথ স্ক্রল করে
+"Learn More" বাটন - সম্পূর্ণ About মোডাল খোলে
+📊 200টি বাস্তবিক ডেমো পোস্ট:
+বিভিন্ন রোগ ও সমস্যার জন্য অসহায় মানুষের গল্প
+ভারতীয় প্রেক্ষাপটে সত্যিকারের ছবি ও তথ্য
+20টি ক্যাটাগরি জুড়ে বিস্তৃত
+🏥 20টি ক্যাটাগরি: বর্তমান আসাম সরকারে অসহায় নিরীহ গরীব দুঃখী মানুষের বাড়িঘর ভেঙ্গে চূর্ণ বিচরণ করে দিচ্ছে তাদের ফটো দিয়ে ক্যাম্পিং পোস্ট তৈরি করুন ৫০ টা স্বাস্থ্যসেবা 2. শিক্ষা 3. দুর্যোগ ত্রাণ 4. দারিদ্র্য বিমোচন 5. বয়স্ক যত্ন
+শিশু কল্যাণ 7. নারী ক্ষমতায়ন 8. পরিবেশ 9. পশু কল্যাণ 10. প্রতিবন্ধী সহায়তা
+কোভিড ত্রাণ 12. খাদ্য নিরাপত্তা 13. বিশুদ্ধ পানি 14. আশ্রয় ও আবাসন 15. মানসিক স্বাস্থ্য
+গ্রামীণ উন্নয়ন 17. প্রযুক্তি 18. ক্রীড়া 19. শিল্প ও সংস্কৃতি 20. জরুরি সেবা
+💰 গোপন কমিশন সিস্টেম:
+40% প্ল্যাটফর্ম ফি (আপনার অ্যাকাউন্টে যাবে)
+60% ক্যাম্পেইন তৈরিকারীর অংশ
+সম্পূর্ণ গোপনীয় - ডোনাররা জানবে না
+🎨 ক্যাম্পেইন তৈরির সিস্টেম:
+4-ধাপের সম্পূর্ণ ফর্ম
+ব্যাংক অ্যাকাউন্ট সংযোগ
+ছবি আপলোড সুবিধা
+সম্পূর্ণ যাচাইকরণ প্রক্রিয়া
+🌍 বহুভাষিক সাপোর্ট:
+ইংরেজি, হিন্দি, বাংলা, অসমীয়া, আরবি
+সহজেই আরও ভাষা যোগ করা যাবে
+💳 পেমেন্ট সিস্টেম:
+আপনার UPI ID: 6080022033313648
+সরাসরি UPI অ্যাপে রিডাইরেক্ট
+নিরাপদ ও তাৎক্ষণিক পেমেন্ট
+📱 রেসপন্সিভ ডিজাইন:
+মোবাইল, ট্যাবলেট, ডেস্কটপ সব ডিভাইসে কাজ করে
+প্রফেশনাল গ্রিন থিম
+আধুনিক UI/UX
+🔒 নিরাপত্তা বৈশিষ্ট্য:
+সব ক্যাম্পেইন যাচাইকৃত
+নিরাপদ পেমেন্ট গেটওয়ে
+স্বচ্ছতা ও জবাবদিহিতা আমাদের অফিসের ঠিকানা Assam
